@@ -30,9 +30,6 @@ class Queens
     end
   end
 
-
-
-
   private
 
   def create_board(y, x)
