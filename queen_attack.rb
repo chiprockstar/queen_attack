@@ -18,7 +18,7 @@ class Queens
         create_board(y, x)
       end
     end
-    @board
+    "#{@board}"
   end
 
   def attack?
