@@ -65,7 +65,7 @@ class Queens
   end
 
   def place_char(char)
-    @board = @board + char
+    @board += char
   end
 
   def attack_type
