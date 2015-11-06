@@ -70,15 +70,15 @@ class Queens
 
   def attack_type
     if (@white[0] == @black[0])
-      type = :row
+      :row
     elsif (@white[1] == @black[1])
-      type = :column
+      :column
     elsif (@white[0] +  @black[0]) == (@white[1] +  @black[1])
-      type = :diagonal
+      :diagonal
     elsif (@white[0] +  @black[1]) == (@white[1] +  @black[0])
-      type = :diagonal
+      :diagonal
     else
-      type = :none
+      :none
     end
   end
 end
